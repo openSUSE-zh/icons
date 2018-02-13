@@ -1,0 +1,28 @@
+{
+  "name": "opensuse-icons",
+  "version": "0.1.0",
+  "description": "openSUSE icons for Plasma workspace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openSUSE-zh/icons.git"
+  },
+  "keywords": [
+    "icons",
+    "plasma"
+  ],
+  "author": "Guo Yunhe",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/openSUSE-zh/icons/issues"
+  },
+  "homepage": "https://github.com/openSUSE-zh/icons#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-svgstore": "^6.1.1"
+  }
+}
