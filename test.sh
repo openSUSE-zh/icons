@@ -9,7 +9,7 @@ cp ./dist/plasma/*.svgz ~/.local/share/plasma/desktoptheme/default/icons/
 kquitapp5 plasmashell &>/dev/null
 
 # Clear svg cache
-rm ~/.cache/*svg* ~/.cache/*.kcache
+rm ~/.cache/*svg* ~/.cache/*.kcache &>/dev/null
 
 # Restart Plasma workspace
 kstart5 plasmashell &>/dev/null
