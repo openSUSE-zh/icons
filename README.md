@@ -20,5 +20,7 @@ Note: * most important sizes that need to be drawn
 
 Follow [openSUSE branding guidelines](https://opensuse.github.io/branding-guidelines/).
 
-High color fill: 60% gray, #666666
-Low color fill: 20% gray, #cccccc
+Name            | Value
+----------------|--------
+High color fill | #444444
+Low color fill  | #cccccc
