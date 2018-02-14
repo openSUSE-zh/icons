@@ -22,5 +22,5 @@ Follow [openSUSE branding guidelines](https://opensuse.github.io/branding-guidel
 
 Name            | Value
 ----------------|--------
-High color fill | #444444
+High color fill | #555555
 Low color fill  | #cccccc
