@@ -6,6 +6,7 @@ bower_components
 
 .vscode
 
-# Ignore npm/yarn debug log
 npm-debug.log
 yarn-error.log
+
+cheatsheet

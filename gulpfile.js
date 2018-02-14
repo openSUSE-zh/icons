@@ -1,26 +1,22 @@
 const gulp = require("gulp");
-const svgstore = require("gulp-svgstore");
+const svgmerge = require("./gulp-svgmerge");
 const svgmin = require("gulp-svgmin");
 const path = require("path");
 
-gulp.task("svgstore", function() {
-  return gulp
-    .src("test/src/*.svg")
-    .pipe(
-      svgmin(function(file) {
-        var prefix = path.basename(file.relative, path.extname(file.relative));
-        return {
-          plugins: [
-            {
-              cleanupIDs: {
-                prefix: prefix + "-",
-                minify: true
-              }
-            }
-          ]
-        };
-      })
-    )
-    .pipe(svgstore())
-    .pipe(gulp.dest("test/dest"));
+const plasmaThemeIconFiles = ["battery"];
+
+const plasmaTasks = plasmaThemeIconFiles.map(file => {
+  const taskName = "plasma-" + file;
+  gulp.task(taskName, () => {
+    return gulp
+      .src("src/plasma/" + file + "/*.svg")
+      .pipe(svgmin())
+      .pipe(svgmerge())
+      .pipe(gulp.dest("dist/plasma/"));
+  });
+  return taskName;
 });
+
+gulp.task("plasma", plasmaTasks);
+
+gulp.task("default", ["plasma"]);

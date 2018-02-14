@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/openSUSE-zh/icons#readme",
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fancy-log": "^1.3.2",
     "gulp": "^3.9.1",
     "gulp-svgmin": "^1.2.4",
-    "gulp-svgstore": "^6.1.1"
+    "gulp-svgstore": "^6.1.1",
+    "plugin-error": "^1.0.1",
+    "vinyl": "^2.1.0"
   }
 }
