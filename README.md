@@ -20,7 +20,35 @@ Note: * most important sizes that need to be drawn
 
 Follow [openSUSE branding guidelines](https://opensuse.github.io/branding-guidelines/).
 
-Name            | Value
-----------------|--------
-High color fill | #555555
-Low color fill  | #cccccc
+Name                  | Value
+----------------------|--------
+openSUSE Dark Gray    | `#555555`
+openSUSE Light Gray   | `#cccccc`
+openSUSE Green        | `#73ba25`
+openSUSE Blue         | `#21a4df`
+openSUSE Yellow       | `#f0c024`
+openSUSE Red          | `#e0281f`
+
+## Icons
+
+### Plasma
+
+Battery
+
+Icon 22px | Icon 32px | Name
+----------|-----------|-----
+![22px](src/plasma/battery/22-22-Fill100.svg) | ![32px](src/plasma/battery/32-32-Fill100.svg) | Fill100
+![22px](src/plasma/battery/22-22-Fill90.svg) | ![32px](src/plasma/battery/32-32-Fill90.svg) | Fill90
+![22px](src/plasma/battery/22-22-Fill80.svg) | ![32px](src/plasma/battery/32-32-Fill80.svg) | Fill80
+![22px](src/plasma/battery/22-22-Fill70.svg) | ![32px](src/plasma/battery/32-32-Fill70.svg) | Fill70
+![22px](src/plasma/battery/22-22-Fill60.svg) | ![32px](src/plasma/battery/32-32-Fill60.svg) | Fill60
+![22px](src/plasma/battery/22-22-Fill50.svg) | ![32px](src/plasma/battery/32-32-Fill50.svg) | Fill50
+![22px](src/plasma/battery/22-22-Fill40.svg) | ![32px](src/plasma/battery/32-32-Fill40.svg) | Fill40
+![22px](src/plasma/battery/22-22-Fill30.svg) | ![32px](src/plasma/battery/32-32-Fill30.svg) | Fill30
+![22px](src/plasma/battery/22-22-Fill20.svg) | ![32px](src/plasma/battery/32-32-Fill20.svg) | Fill20
+![22px](src/plasma/battery/22-22-Fill10.svg) | ![32px](src/plasma/battery/32-32-Fill10.svg) | Fill10
+![22px](src/plasma/battery/22-22-Fill0.svg) | ![32px](src/plasma/battery/32-32-Fill0.svg) | Fill0
+![22px](src/plasma/battery/22-22-AcAdapter.svg) | ![32px](src/plasma/battery/32-32-AcAdapter.svg) | AcAdapter (Decoration)
+![22px](src/plasma/battery/22-22-Unavailable.svg) | ![32px](src/plasma/battery/32-32-Unavailable.svg) | Unavailable (Decoration)
+![22px](src/plasma/battery/22-22-Battery.svg) | ![32px](src/plasma/battery/32-32-Battery.svg) | Battery
+![22px](src/plasma/battery/22-22-battery-ups.svg) | ![32px](src/plasma/battery/32-32-battery-ups.svg) | battery-ups
