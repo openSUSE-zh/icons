@@ -26,23 +26,25 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
-     inkscape:cx="7.9953488"
+     inkscape:cx="0.048920229"
      inkscape:cy="10.178599"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg8"
      showgrid="true"
      units="px"
      width="22px"
      inkscape:window-width="1920"
-     inkscape:window-height="1019"
+     inkscape:window-height="1009"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid4547"
-       empspacing="4"
-       dotted="true" />
+       empspacing="2"
+       dotted="false"
+       spacingx="0.5"
+       spacingy="0.5" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -56,9 +58,4 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-291.17917)" />
 </svg>
