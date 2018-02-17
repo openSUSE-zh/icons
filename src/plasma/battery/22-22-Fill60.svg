@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="31.678384"
-     inkscape:cx="9.5692292"
+     inkscape:cx="3.9502557"
      inkscape:cy="10.132296"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg8"
      showgrid="true"
      units="px"
      width="22px"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1009"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1">
@@ -54,28 +54,22 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-291.17917)">
-    <rect
-       style="opacity:1;fill:#73ba25;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect5825"
-       width="10"
-       height="10.000001"
-       x="3"
-       y="297.17917"
-       rx="0.99999994"
-       ry="1" />
-    <path
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 4 4 C 2.3466486 4 1 5.34665 1 7 L 1 15 C 1 16.65335 2.3466486 18 4 18 L 18 18 C 19.653351 18 21 16.65335 21 15 L 21 13 C 21.554 13 22 12.554 22 12 L 22 10 C 22 9.446 21.554 9 21 9 L 21 7 C 21 5.34665 19.653351 4 18 4 L 4 4 z M 4 5 L 18 5 C 19.116649 5 20 5.88335 20 7 L 20 10 L 20 12 L 20 15 C 20 16.11665 19.116649 17 18 17 L 4 17 C 2.8833514 17 2 16.11665 2 15 L 2 7 C 2 5.88335 2.8833514 5 4 5 z "
-       transform="translate(0,291.17917)"
-       id="rect5840" />
-  </g>
+  <rect
+     style="opacity:1;fill:#73ba25;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect5825"
+     width="10"
+     height="10.000001"
+     x="3"
+     y="5.9999986"
+     rx="0.99999994"
+     ry="1" />
+  <path
+     inkscape:connector-curvature="0"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     d="M 4,4 C 2.3466486,4 1,5.34665 1,7 v 8 c 0,1.65335 1.3466486,3 3,3 h 14 c 1.653351,0 3,-1.34665 3,-3 v -2 c 0.554,0 1,-0.446 1,-1 V 10 C 22,9.446 21.554,9 21,9 V 7 C 21,5.34665 19.653351,4 18,4 Z m 0,1 h 14 c 1.116649,0 2,0.88335 2,2 v 3 2 3 c 0,1.11665 -0.883351,2 -2,2 H 4 C 2.8833514,17 2,16.11665 2,15 V 7 C 2,5.88335 2.8833514,5 4,5 Z"
+     id="rect5840" />
 </svg>
