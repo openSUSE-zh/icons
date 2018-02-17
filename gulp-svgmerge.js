@@ -13,7 +13,11 @@ var PluginError = require("plugin-error");
 var Vinyl = require("vinyl");
 
 module.exports = function(config) {
-  config = config || {};
+  config = config || {
+    removeStyleAttributes: true,
+    removeFontAttributes: true,
+    removeOverflowAttributes: true
+  };
 
   var namespaces = {};
   var isEmpty = true;
@@ -119,6 +123,24 @@ module.exports = function(config) {
     }
 
     $svg.find("defs, metadata, sodipodi\\:namedview").remove();
+    const $paths = $svg.find("path");
+    if (config.removeStyleAttributes) {
+      $paths
+        .attr("style", null)
+        .attr("font-weight", null)
+        .attr("font-family", null)
+        .attr("white-space", null)
+        .attr("overflow", null);
+    }
+    if (config.removeFontAttributes) {
+      $paths
+        .attr("font-weight", null)
+        .attr("font-family", null)
+        .attr("white-space", null);
+    }
+    if (config.removeOverflowAttributes) {
+      $paths.attr("overflow", null);
+    }
 
     $g.append($square);
     $g.append($svg.contents());

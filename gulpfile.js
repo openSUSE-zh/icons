@@ -10,7 +10,13 @@ const plasmaTasks = plasmaThemeIconFiles.map(file => {
   gulp.task(taskName, () => {
     return gulp
       .src("src/plasma/" + file + "/*.svg")
-      .pipe(svgmin())
+      .pipe(
+        svgmin({
+          js2svg: {
+            pretty: true
+          }
+        })
+      )
       .pipe(svgmerge())
       .pipe(gulp.dest("dist/plasma/"));
   });
