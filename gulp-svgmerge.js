@@ -32,7 +32,6 @@ module.exports = function(config) {
 
   var $ = cheerio.load(resultSvg, { xmlMode: true });
   var $combinedSvg = $("svg");
-  var $combinedDefs = $("defs");
   var stream = new Stream.Transform({ objectMode: true });
   var x = 0;
 
@@ -130,9 +129,7 @@ module.exports = function(config) {
 
   stream._flush = function flush(cb) {
     if (isEmpty) return cb();
-    if ($combinedDefs.contents().length === 0) {
-      $combinedDefs.remove();
-    }
+
     for (var nsName in namespaces) {
       $combinedSvg.attr(nsName, namespaces[nsName]);
     }
