@@ -127,12 +127,7 @@ module.exports = function(config) {
     $svg.find("defs, metadata, sodipodi\\:namedview").remove();
     const $paths = $svg.find("path");
     if (config.removeStyleAttributes) {
-      $paths
-        .attr("style", null)
-        .attr("font-weight", null)
-        .attr("font-family", null)
-        .attr("white-space", null)
-        .attr("overflow", null);
+      $paths.attr("style", null);
     }
     if (config.removeFontAttributes) {
       $paths
@@ -147,11 +142,14 @@ module.exports = function(config) {
       $paths.attr("color", null);
     }
 
+    // Default fill color use text color
+    // This is the way that Plasma change icon color in light/dark background
     $paths.each(function() {
       const $this = $(this);
       if ($this.attr("fill") === "#555") {
         $this.addClass("ColorScheme-Text");
         $this.attr("fill", null);
+        $this.attr("style", "fill:currentColor");
       }
     });
 
