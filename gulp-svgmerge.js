@@ -16,7 +16,8 @@ module.exports = function(config) {
   config = config || {
     removeStyleAttributes: true,
     removeFontAttributes: true,
-    removeOverflowAttributes: true
+    removeOverflowAttributes: true,
+    removeColorAttributes: true
   };
 
   var namespaces = {};
@@ -25,7 +26,8 @@ module.exports = function(config) {
   var inlineSvg = config.inlineSvg || false;
   var ids = {};
 
-  var resultSvg = '<svg xmlns="http://www.w3.org/2000/svg"><defs/></svg>';
+  var resultSvg =
+    '<svg xmlns="http://www.w3.org/2000/svg"><defs><style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#555555;}</style></defs></svg>';
   if (!inlineSvg) {
     resultSvg =
       '<?xml version="1.0" encoding="UTF-8"?>' +
@@ -141,6 +143,17 @@ module.exports = function(config) {
     if (config.removeOverflowAttributes) {
       $paths.attr("overflow", null);
     }
+    if (config.removeColorAttributes) {
+      $paths.attr("color", null);
+    }
+
+    $paths.each(function() {
+      const $this = $(this);
+      if ($this.attr("fill") === "#555") {
+        $this.addClass("ColorScheme-Text");
+        $this.attr("fill", null);
+      }
+    });
 
     $g.append($square);
     $g.append($svg.contents());
